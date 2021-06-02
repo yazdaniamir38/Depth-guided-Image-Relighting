@@ -1,3 +1,4 @@
+#borrowed from zhaoyuzhi (https://github.com/zhaoyuzhi/Hierarchical-Regression-Network-for-Spectral-Reconstruction-from-RGB-Images)
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
