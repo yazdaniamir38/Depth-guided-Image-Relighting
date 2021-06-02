@@ -6,10 +6,10 @@ Physically Inspired Dense Fusion Networks for Relighting. Yazdani et al. [arXiv]
 To correctly train and test the models you neeed the following packages and libraries:
 1. python 3.6.11 or higher.
 2. PyTorch 1.6.0
-3. OpenCV.
-4.Kornia
-5.Pillow
-6.scipy
+3. OpenCV
+4. Kornia
+5. Pillow
+6. scipy
 # Testing (Evaluation)
 # One-to-one:
 First download the checkpoint from [here](https://drive.google.com/file/d/1-azD3U8c4ag24ecVagB74K7BkMBpKh4s/view?usp=sharing) and save it in 'One_to_one/model/'.
