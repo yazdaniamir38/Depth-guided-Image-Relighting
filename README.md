@@ -18,8 +18,8 @@ python test.py --cuda --model dense121
 where --cuda option is for using GPU if available.
 # Any-to-any:
 First download the checkpoint from [here](https://drive.google.com/file/d/1FxafveD9QMXFmEvPw3MSMW7xufteN-Jr/view?usp=sharing) and save it in 'Any_to_one/model/'.
-Navigate to the Any_to_any folder, in terminal, type:
-	python test.py --cuda --model dense121
+Navigate to the Any_to_any folder, in terminal, type:  
+python test.py --cuda --model dense121  
 where --cuda option is for using GPU if available.
 
 # Training
