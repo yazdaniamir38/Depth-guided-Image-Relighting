@@ -1,3 +1,4 @@
+# borrowed from https://github.com/zhaoyuzhi/Hierarchical-Regression-Network-for-Spectral-Reconstruction-from-RGB-Images.
 # This code is heavily inspired from https://github.com/fangwei123456/PixelUnshuffle-pytorch
 
 import torch
