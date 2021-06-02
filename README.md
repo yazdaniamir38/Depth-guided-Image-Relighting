@@ -14,7 +14,7 @@ To correctly train and test the models you neeed the following packages and libr
 # One-to-one:
 First download the checkpoint from [here](https://drive.google.com/file/d/1-azD3U8c4ag24ecVagB74K7BkMBpKh4s/view?usp=sharing) and save it in 'One_to_one/model/'.  
 Navigate to the One_to_one folder, in terminal, type:  
-python test.py --cuda --model dense121
+python test.py --cuda --model dense121  
 where --cuda option is for using GPU if available.
 # Any-to-any:
 First download the checkpoint from [here](https://drive.google.com/file/d/1FxafveD9QMXFmEvPw3MSMW7xufteN-Jr/view?usp=sharing) and save it in 'Any_to_one/model/'.
