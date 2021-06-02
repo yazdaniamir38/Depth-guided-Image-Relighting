@@ -1,9 +1,27 @@
 # Depth-guided-Image-Relighting
-A deep Learning  model for one-to-one and any-to-any relighting. Our work ranked 2nd in NTIRE 2021 one-to-one depth guided relighting and 5th in any-to-any relighting challenge held in conjuction with CVPR 2021. You can find the challenge results and the coresponding paper to our work here:
+A deep Learning model for one-to-one and any-to-any relighting. Our work ranked 2nd in NTIRE 2021 one-to-one depth guided relighting and 5th in any-to-any relighting challenge held in conjuction with CVPR 2021. You can find the challenge results and the coresponding paper to our work here:
 NTIRE 2021 Depth Guided Image Relighting Challenge. Helou et al. [arXiv](https://arxiv.org/pdf/2104.13365.pdf)
 Physically Inspired Dense Fusion Networks for Relighting. Yazdani et al. [arXiv](https://arxiv.org/pdf/2105.02209.pdf)
+# Requirements
+To correctly train and test the models you neeed the following packages and libraries:
+1. python 3.6.11 or higher.
+2. PyTorch 1.6.0
+3. OpenCV.
+4.Kornia
+5.Pillow
+6.scipy
 # Testing (Evaluation)
-To test our pretrained models
+# One-to-one:
+First download the checkpoint from [here](https://drive.google.com/file/d/1-azD3U8c4ag24ecVagB74K7BkMBpKh4s/view?usp=sharing) and save it in 'One_to_one/model/'.
+Navigate to the One_to_one folder, in terminal, type:
+	python test.py --cuda --model dense121
+where --cuda option is for using GPU if available.
+# Any-to-any:
+First download the checkpoint from [here](https://drive.google.com/file/d/1FxafveD9QMXFmEvPw3MSMW7xufteN-Jr/view?usp=sharing) and save it in 'Any_to_one/model/'.
+Navigate to the Any_to_any folder, in terminal, type:
+	python test.py --cuda --model dense121
+where --cuda option is for using GPU if available.
+
 # Training
 # One-to-one (OIDDR-Net):
 # 1)Data Generation:
