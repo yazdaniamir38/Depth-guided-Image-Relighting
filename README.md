@@ -1,7 +1,7 @@
 # Depth-guided-Image-Relighting
 A deep Learning model for one-to-one and any-to-any relighting. Our work ranked 2nd in NTIRE 2021 one-to-one depth guided relighting and 5th in any-to-any relighting challenge held in conjuction with CVPR 2021. You can find the challenge results and the coresponding paper to our work here:
-NTIRE 2021 Depth Guided Image Relighting Challenge. Helou et al. [arXiv](https://arxiv.org/pdf/2104.13365.pdf)
-Physically Inspired Dense Fusion Networks for Relighting. Yazdani et al. [arXiv](https://arxiv.org/pdf/2105.02209.pdf)
+ NTIRE 2021 Depth Guided Image Relighting Challenge. Helou et al. [arXiv](https://arxiv.org/pdf/2104.13365.pdf)
+ Physically Inspired Dense Fusion Networks for Relighting. Yazdani et al. [arXiv](https://arxiv.org/pdf/2105.02209.pdf)
 # Requirements
 To correctly train and test the models you neeed the following packages and libraries:
 1. python 3.6.11 or higher.
