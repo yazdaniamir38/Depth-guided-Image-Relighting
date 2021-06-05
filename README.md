@@ -32,6 +32,7 @@ Subsequently use 'One_to_one/dataset_generation/createH5.py' to generate h5 file
 Finally, use 'One_to_one/dataset_generation/modify.py' to generate h5 files for normals.
 
 # 2) Training the network 
+TBU
 # Any-to-any (AMIDR-Net):
 # 1) Training the lighting-estimation network
 # 2) Training the main model
