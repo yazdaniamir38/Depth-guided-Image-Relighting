@@ -25,6 +25,12 @@ where --cuda option is for using GPU if available.
 # Training
 # One-to-one (OIDDR-Net):
 # 1)Data Generation:
+First download and save training data for one-to-one relighting from [here](https://github.com/majedelhelou/VIDIT) into 'One_to_one/'.  
+Second you need to generate psuedo ground truth for albedo and shading of the training data. You can use the GoogleColab notebook (psuedo_GT.ipynb). Store the albedo and shading files in 'One_to_one/content/'. (The name format for albedo and shading should be :'a_original_name.png' and 's_original_name.png' repectively. 'original_name' means the original name of the image in training set.)  
+Now you can use  'One_to_one/dataset_generation/createPatches.m' to generate patches. 
+Subsequently use 'One_to_one/dataset_generation/createH5.py' to generate h5 files.  
+Finally, use 'One_to_one/dataset_generation/modify.py' to generate h5 files for normals.
+
 # 2) Training the network 
 # Any-to-any (AMIDR-Net):
 # 1) Training the lighting-estimation network
