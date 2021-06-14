@@ -34,7 +34,7 @@ Finally, use 'One_to_one/dataset_generation/modify.py' to generate h5 files for 
 # 2) Training the network 
 After generating the '.h5' files, you can start training the network. The encoder in OIDDR-Net is adpoted from densenet feature extraction layers. Furthermore, the lighting estimation network is a pretrained dense-net 121 classification network trained separately on the training inputs and their lighting parameters.  
 Download the checkpoint for lighting estimation network from [here](https://drive.google.com/file/d/1FxafveD9QMXFmEvPw3MSMW7xufteN-Jr/view?usp=sharing) ('checkpoint_epochcorrected_100.pth') into './One_to_one/
-To train a model, run 
+To train a model, run main.py. There are parse arguments that you can set. The code tests the model at the end of each epoch on the validation set and if the perfromance has been imporoved it saves the checkpoint otherwise it saves the model every 5 epochs.
 # Any-to-any (AMIDR-Net):
 # 1) Training the lighting-estimation network
 # 2) Training the main model
