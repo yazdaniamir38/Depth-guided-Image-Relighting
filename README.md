@@ -32,7 +32,8 @@ Subsequently use 'One_to_one/dataset_generation/createH5.py' to generate h5 file
 Finally, use 'One_to_one/dataset_generation/modify.py' to generate h5 files for normals.
 
 # 2) Training the network 
-After generating the '.h5' files, you can start training the network. The encoder in OIDDR-Net is adpoted from densenet feature extraction layers.  
+After generating the '.h5' files, you can start training the network. The encoder in OIDDR-Net is adpoted from densenet feature extraction layers. Furthermore, the lighting estimation network is a pretrained dense-net 121 classification network trained separately on the training inputs and their lighting parameters.  
+Download the checkpoint for lighting estimation network from [here](https://drive.google.com/file/d/1FxafveD9QMXFmEvPw3MSMW7xufteN-Jr/view?usp=sharing) ('checkpoint_epochcorrected_100.pth') into './One_to_one/
 To train a model, run 
 # Any-to-any (AMIDR-Net):
 # 1) Training the lighting-estimation network
