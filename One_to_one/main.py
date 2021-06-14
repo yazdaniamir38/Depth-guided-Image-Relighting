@@ -17,7 +17,7 @@ from Vgg16 import Vgg16
 import importlib
 import common
 from dense121 import dense121
-from Light_estimation import Light_estimation
+from le import le
 import glob
 import ntpath
 import cv2
