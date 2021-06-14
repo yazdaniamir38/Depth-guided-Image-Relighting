@@ -12,10 +12,10 @@ import ntpath
 import matplotlib.pyplot as plt
 
 
-Shading_PATH='../validation_patches_varied_256/results/'
-DATA_PATH = '../validation_patches_varied_256/input/'
-LABEL_PATH = '../validation_patches_varied_256/target/'
-PATCH_PATH = '../h5_1/'
+Shading_PATH='../training_patches_varied_256/results/'
+DATA_PATH = '../training_patches_varied_256/input/'
+LABEL_PATH = '../training_patches_varied_256/target/'
+PATCH_PATH = '../h5/data/'
 SIZE_INPUT = 256
 SIZE_TARGET = 256
 STRIDE = 128
@@ -64,8 +64,8 @@ for data_image in names[0:total]:
     imgAlbedo_normalized=imgLabel_normalized/(imgShading_normalized+.0001)
     imgDepth_normalized=imgDepth/255.0
 
-    INPUT[p[k], :, :, :] = imgLabel_normalized
-    TARGET[p[k], :, :, :] = imgData_normalized
+    INPUT[p[k], :, :, :] = imgData_normalized
+    TARGET[p[k], :, :, :] =imgLabel_normalized
     DEPTH[p[k],:,:,:]= imgDepth_normalized
     ALBEDO[p[k],:,:,:]=imgAlbedo_normalized
     SHADING[p[k],:,:,:]=imgShading_normalized
