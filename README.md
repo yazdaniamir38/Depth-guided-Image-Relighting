@@ -3,7 +3,7 @@ A deep Learning model for one-to-one and any-to-any relighting. Our work ranked 
 NTIRE 2021 Depth Guided Image Relighting Challenge. Helou et al. [arXiv](https://arxiv.org/pdf/2104.13365.pdf)  
 Physically Inspired Dense Fusion Networks for Relighting. Yazdani et al. [arXiv](https://arxiv.org/pdf/2105.02209.pdf)
 # Requirements
-To correctly train and test the models you neeed the following packages and libraries:
+To correctly train and test the models you need the following packages and libraries:
 1. python 3.6.11 or higher.
 2. PyTorch 1.6.0
 3. OpenCV
