@@ -12,7 +12,7 @@ To correctly train and test the models you need the following packages and libra
 6. scipy
 # Testing (Evaluation)
 # One-to-one:
-First download the checkpoint from [here](https://drive.google.com/file/d/1-azD3U8c4ag24ecVagB74K7BkMBpKh4s/view?usp=sharing) and save it in 'One_to_one/model/'. Also generate the normals for the test set using 'One_to_one/dataset_generation/create_normal_mat_file.py' and store them in 'One_to_one/dataset_generation/pre_reqs/'.  
+First download the checkpoint from [here](https://drive.google.com/file/d/1-azD3U8c4ag24ecVagB74K7BkMBpKh4s/view?usp=sharing) and save it in 'One_to_one/model/'. Make sure the test set is stored in 'One_to_one/test_set/'. Also generate the normals for the test set using 'One_to_one/dataset_generation/create_normal_mat_file.py' and store them in 'One_to_one/dataset_generation/pre_reqs/'.  
 Navigate to the One_to_one folder, in terminal, type:  
 python test.py --cuda --model dense121  
 where --cuda option is for using GPU if available.
