@@ -34,5 +34,5 @@ for name in files:
             d=d/np.linalg.norm(d)
             normals[i,j,:]=d
 
-    sio.savemat('../../test/'+file_name[:-4]+'normal'+'.mat',{'normal':normals})
+    sio.savemat('./pre_reqs/'+file_name[:-4]+'normal'+'.mat',{'normal':normals})
 
