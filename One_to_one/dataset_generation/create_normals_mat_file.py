@@ -5,7 +5,7 @@ import skimage.io as io
 import scipy.io as sio
 import ntpath
 
-files=glob.glob('../validation/'+'*.npy')
+files=glob.glob('../test/'+'*.npy')
 
 for name in files:
     _,file_name=ntpath.split(name)
