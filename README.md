@@ -37,7 +37,9 @@ Download the checkpoint for lighting estimation network from [here](https://driv
 To train a model, run main.py. There are parse arguments that you can set. The code tests the model at the end of each epoch on the validation set (You need to download the validation data from [here](https://github.com/majedelhelou/VIDIT) into 'One_to_one/validation/' and 'One_to_one/validation_gt/'. Make sure to generatre normals for validation data and store them in the former folder as well.)  and if the perfromance has been imporoved it saves the checkpoint otherwise it saves the model every 5 epochs.
 # Any-to-any (AMIDR-Net):
 # 1) Training the lighting-estimation network
+TBU
 # 2) Training the main model
+TBU
 
 The factsheets for our proposed methods in NTIRE 2021 depth guided image relighting challenge as well as the training and testing code can be found here:
 
