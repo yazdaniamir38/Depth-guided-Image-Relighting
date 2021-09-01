@@ -29,7 +29,7 @@ import torchvision.transforms as transforms
 import torch.nn.functional as F
 from PIL import Image
 # Training settings
-parser = argparse.ArgumentParser(description="Pytorch DRRN")
+parser = argparse.ArgumentParser(description="Pytorch OIDDR-NET")
 parser.add_argument("--batchSize", type=int, default=6, help="Training batch size")
 parser.add_argument("--patchSize", type=int, default=256, help="Training patch size")
 parser.add_argument("--traindata", default="./h5/data/", type=str, help="Training datapath")#SynthesizedfromN18_256s64
@@ -170,7 +170,7 @@ def train(training_data_loader, optimizer, model, criterion, Absloss, ssim_loss,
         light_features_target = light_estimation(target)
         light_features_output = light_estimation(I_total)
         light_error = criterion(light_features_output.relu2_2, light_features_target.relu2_2) + criterion(
-            light_features_output.relu1_2, light_features_target.relu1_2) + criterion(light_features_output.relu3_3,
+            light_features_output.relu1_2, light_features_target.relu1_2) + criterion(light_features_output.relu3_3, light_features_target.relu3_3)
 
         s_loss = torch.mean(ssim_loss(target, J_total))
         PSNR = 60 - psnr_loss(target, J_total)
