@@ -7,11 +7,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 import torch.utils.model_zoo as model_zoo
 from collections import OrderedDict
-import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.utils.model_zoo as model_zoo
-from collections import OrderedDict
 import torchvision.models as models
 from torch.autograd import Variable
 import common
@@ -314,7 +309,7 @@ class DenseDecoderDilationInception(nn.Module):
         x8 = self.trans_block8(self.dense_block8(x7))
         x8 = self.residual_block81(x8)
         x8 = self.residual_block82(x8)
-        #Amir
+
         # x8 = torch.cat([x8, x], 1)
         x8 = torch.cat([x8, x,depth], 1)
         x9 = self.relu(self.conv_refin(self.di9(x8)))
