@@ -7,7 +7,7 @@ Please cite this paper in your publications if it is helpful for your tasks:
 
 Bibtex:
 ```
-@INPROCEEDINGS{9522731,
+@INPROCEEDINGS{Yazdani_relighting,
   author={Yazdani, Amirsaeed and Guo, Tiantong and Monga, Vishal},
   booktitle={2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
   title={Physically Inspired Dense Fusion Networks for Relighting}, 
