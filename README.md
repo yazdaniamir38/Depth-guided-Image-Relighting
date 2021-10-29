@@ -7,12 +7,12 @@ Please cite this paper in your publications if it is helpful for your tasks:
 
 Bibtex:
 ```
-@inproceedings{yang2021S3Net,
-    title     = {{S3N}et: A Single Stream Structure for Depth Guided Image Relighting},
-    author    = {Yang, Hao-Hsiang and Chen, Wei-Ting and Kuo, Sy-Yen},
-    booktitle = {Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)},
-    year      = {2021}
-}
+@INPROCEEDINGS{9522731,
+  author={Yazdani, Amirsaeed and Guo, Tiantong and Monga, Vishal},
+  booktitle={2021 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, 
+  title={Physically Inspired Dense Fusion Networks for Relighting}, 
+  year={2021},
+ }
 ```
 # Requirements
 To correctly train and test the models you need the following packages and libraries:
