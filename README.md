@@ -1,7 +1,7 @@
 # Depth-guided-Image-Relighting
 A deep Learning model for one-to-one and any-to-any relighting. Our work ranked 2nd in NTIRE 2021 one-to-one depth guided relighting and 5th in any-to-any relighting challenge held in conjuction with CVPR 2021. You can find the challenge results and the coresponding paper to our work here:  
-NTIRE 2021 Depth Guided Image Relighting Challenge. Helou et al. [pdf](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Helou_NTIRE_2021_Depth_Guided_Image_Relighting_Challenge_CVPRW_2021_paper.pdf)  
-Physically Inspired Dense Fusion Networks for Relighting. Yazdani et al. [pdf](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Yazdani_Physically_Inspired_Dense_Fusion_Networks_for_Relighting_CVPRW_2021_paper.pdf)
+NTIRE 2021 Depth Guided Image Relighting Challenge. Helou et al. [PDF](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Helou_NTIRE_2021_Depth_Guided_Image_Relighting_Challenge_CVPRW_2021_paper.pdf)  
+Physically Inspired Dense Fusion Networks for Relighting. Yazdani et al. [PDF](https://openaccess.thecvf.com/content/CVPR2021W/NTIRE/papers/Yazdani_Physically_Inspired_Dense_Fusion_Networks_for_Relighting_CVPRW_2021_paper.pdf)
 # Citations
 Please cite this paper in your publications if it is helpful for your tasks:    
 
