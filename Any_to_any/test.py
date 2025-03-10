@@ -100,9 +100,9 @@ if cuda and not torch.cuda.is_available():
 model_path = os.path.join('model', "{}.pth".format(opt.model))
 model_path1 = os.path.join('model', "{}.pth".format(opt.model1))
 model_path2 = os.path.join('model', "{}.pth".format(opt.model2))
-model, _,dict = utils.load_checkpoint(model_path,file_name='dense169_dilation', iscuda=opt.cuda)
-model1, _,dict1 = utils.load_checkpoint(model_path1,file_name='dense121', iscuda=opt.cuda)
-model2, _,dict2 = utils.load_checkpoint(model_path2,file_name='dense169', iscuda=opt.cuda)
+model, _,dict = utils.load_checkpoint(model_path,'dense169_dilation',file_name='dense169_dilation', iscuda=opt.cuda)
+model1, _,dict1 = utils.load_checkpoint(model_path1,'dense121',file_name='dense121', iscuda=opt.cuda)
+model2, _,dict2 = utils.load_checkpoint(model_path2,'dense169',file_name='dense169', iscuda=opt.cuda)
 
 if cuda:
     model = model.cuda()
